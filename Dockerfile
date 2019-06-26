@@ -1,7 +1,7 @@
 FROM node:12.4.0-alpine
 
-LABEL global.florence.author="Leo Muller <leo@fingermark.tech>"
-LABEL global.florence.version="0.0.1"
+LABEL digital.florence.author="Leo Muller <leo@fingermark.tech>"
+LABEL digital.florence.version="0.0.1"
 
 RUN apk add --no-cache bash \
         git \
